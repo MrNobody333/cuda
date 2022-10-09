@@ -313,19 +313,23 @@ html {
 }
 
 .circle-1 {
-  background-image: linear-gradient(90deg, transparent 50%, #30bae7 50%), linear-gradient(55deg, #30bae7 50%, #dfe8ed 50%);
+  background-image: linear-gradient(90deg, transparent 50%, #30bae7 50%), 
+    linear-gradient(55deg, #30bae7 50%, #dfe8ed 50%);
 }
 
 .circle-2 {
-  background-image: linear-gradient(90deg, transparent 50%, #d74680 50%), linear-gradient(360deg, #d74680 50%, #dfe8ed 50%);
+  background-image: linear-gradient(90deg, transparent 50%, #d74680 50%), 
+    linear-gradient(360deg, #d74680 50%, #dfe8ed 50%);
 }
 
 .circle-3 {
-  background-image: linear-gradient(90deg, transparent 50%, #15c7a8 50%), linear-gradient(335deg, #15c7a8 50%, #dfe8ed 50%);
+  background-image: linear-gradient(90deg, transparent 50%, #15c7a8 50%), 
+    linear-gradient(335deg, #15c7a8 50%, #dfe8ed 50%);
 }
 
 .circle-4 {
-  background-image: linear-gradient(90deg, transparent 50%, #eb7d4b 50%), linear-gradient(390deg, #eb7d4b 50%, #dfe8ed 50%);
+  background-image: linear-gradient(90deg, transparent 50%, #eb7d4b 50%), 
+    linear-gradient(390deg, #eb7d4b 50%, #dfe8ed 50%);
 }
 
 .circle-1:hover .number,
