@@ -595,6 +595,24 @@ footer {
   opacity: 1;
 }
 
+/* Animation
+=================*/
+.animated {
+  transform: translateX(0);
+  transition: transform .5s,
+  opacity 2s;
+}
+
+.need-animate {
+  transform: translateX(1366px);
+  opacity: 0;
+}
+
+.need-animate_2 {
+  transform: translateX(-1366px);
+  opacity: 0;
+}
+
 /* Media
 =================*/
 @media (max-width: 1024px) {
