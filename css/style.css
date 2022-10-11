@@ -44,6 +44,11 @@ html {
   color: #3c4761;
 }
 
+a[href^=tel] {
+	text-decoration: none;
+	color: #fff;
+}
+
 .wrapper {
   max-width: 1140px;
   overflow: hidden;
@@ -523,14 +528,16 @@ form {
 .form-textarea {
   border: none;
   border-radius: .5rem;
+  font-size: 1.8em;
+  color: #fff;
   background-color: #273a71;
 }
 
 .form-input::placeholder,
 .form-textarea::placeholder {
   font-family: Verdana;
-  font-size: 1.33em;
-  color: #fff;
+  font-size: inherit;
+  color: inherit;
 }
 
 .form-btn {
