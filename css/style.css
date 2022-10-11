@@ -45,8 +45,8 @@ html {
 }
 
 a[href^=tel] {
-	text-decoration: none;
-	color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .wrapper {
