@@ -46,6 +46,7 @@ html {
 
 .wrapper {
   max-width: 1140px;
+  overflow: hidden;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -604,12 +605,12 @@ footer {
 }
 
 .need-animate {
-  transform: translateX(1366px);
+  transform: translateX(100%);
   opacity: 0;
 }
 
 .need-animate_2 {
-  transform: translateX(-1366px);
+  transform: translateX(-100%);
   opacity: 0;
 }
 
